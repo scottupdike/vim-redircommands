@@ -27,13 +27,13 @@ of commands in whatever way you desire, but it is cumbersome to use. The
 Extract the plugin files in your ~/.vim (*nix) or ~/vimfiles (Windows). You
 should have 2 files: >
     plugin/redircommands.vim
-    doc/aredircommands.txt
+    doc/redircommands.txt
 <
 Next, to finish installing the help file run: >
     :helptags ~/.vim/doc
 
 Alternatively, and arguably preferably, use Pathogen and checkout the
-vim-appendtoclip directory in your bundle directory. Then, run: >
+vim-redircommands directory in your bundle directory. Then, run: >
     :Helptags
 
 ==============================================================================
